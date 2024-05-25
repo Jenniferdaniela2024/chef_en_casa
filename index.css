@@ -1,0 +1,136 @@
+body{
+    font-family: sans-serif;
+    margin: 0; /*Hace que no halla espacio en ninguna de las esquinas*/
+}
+header{
+    display: flex; /*Hace que los elemeetos se vean de una forma horizontal*/
+    justify-content:space-between ; /*ubica los elementos y space between para que uno este en la esquina*/
+    height: 75px;
+    background-color: #AD88C6;
+    color: azure;
+    align-items: center; /*centra los links*/
+    padding: 10px; /*para separar los elementos de su borde*/
+    width: 99%;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 88px;
+    width: 95px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    border-radius: 5px;
+}
+li{
+    list-style-type: none;
+}
+a:hover{
+    background-color:black;
+}
+
+aside{
+    width: 350px;
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    box-sizing: border-box;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-style:groove;
+    border-color: rgb(20, 20, 20);
+}
+h3 {
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
+.imagen{
+    margin-left: 45px;
+    border-radius: 5px;
+}
+.imagen:hover{
+    width: 300px;
+    height: 300px;
+}
+p{
+    color: rgb(20, 20, 20);
+    text-align: start;
+}
+h4{
+    color: #AD88C6;
+    text-align: center;
+}
+
+.container{
+    margin-left: 30%;
+    margin-top: -133%;
+    margin-bottom: 17%;
+
+}
+
+.imagenes{
+    display: flex;
+    margin-right: 40px;
+    padding-right: 10px;
+}
+
+strong{
+    color: #712f9d;
+}
+
+.publicidad{
+    margin-left: 20%;
+}
+video{
+    margin-left: 10%;
+}
+h2{
+    text-align: center;
+}
+.noticia{
+    color: black;
+    background-color: aliceblue;
+}
+.noticia:hover{
+    background-color: aliceblue;
+}
+
+footer{
+        background-color:#AD88C6;
+        padding: 10px;
+        text-align: center;
+        width: 99%;
+        bottom: 0;
+        margin-top: -16%;
+        height: 80px;
+    
+}
+.pie{
+    color: azure;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.social-icons li{
+    display: inline-block;
+}
+
+.social-icons li a{
+    color: #efefef;
+    font-size: 20px;
+
+}
+.tips{
+    background-color: #712f9d;
+    width: 350px;
+    color: azure;
+    border-radius: 5px;
+}
+.imagen1{
+    width: 200px;
+    height: 200px;
+}
+
