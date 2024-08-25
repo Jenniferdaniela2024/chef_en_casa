@@ -32,7 +32,7 @@ a:hover{
 }
 
 aside{
-    width: 350px;
+    width: 300px;
     background-color: rgb(255, 254, 254);
     padding: 20px;
     box-sizing: border-box;
@@ -65,8 +65,8 @@ h4{
 }
 
 .container{
-    margin-left: 30%;
-    margin-top: -133%;
+    margin-left: 40%;
+    margin-top: -215%;
     margin-bottom: 17%;
 
 }
@@ -85,7 +85,7 @@ strong{
     margin-left: 20%;
 }
 video{
-    margin-left: 10%;
+    margin-left: 0%;
 }
 h2{
     text-align: center;
@@ -130,7 +130,7 @@ footer{
     border-radius: 5px;
 }
 .imagen1{
-    width: 200px;
+    width: 180px;
     height: 200px;
 }
 
